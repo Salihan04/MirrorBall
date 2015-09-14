@@ -172,7 +172,7 @@ GameObject:
   - 65: {fileID: 124391702}
   - 23: {fileID: 124391701}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: East Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,7 +331,7 @@ GameObject:
   - 65: {fileID: 671826635}
   - 23: {fileID: 671826634}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: West Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -404,7 +404,7 @@ GameObject:
   - 65: {fileID: 944797257}
   - 23: {fileID: 944797256}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: South Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
