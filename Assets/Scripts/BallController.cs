@@ -1,23 +1,31 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class BallController : MonoBehaviour {
 
-    private Rigidbody rb;
+    private GameObject ball;
+    private GameObject ball_mirror;
+    private Rigidbody rb_ball;
+    private Rigidbody rb_ball_mirror;
 
     public float speed;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        ball = GameObject.Find("/Ball");
+        ball_mirror = GameObject.Find("/Ball_Mirror");
+        rb_ball = ball.GetComponent<Rigidbody>();
+        rb_ball_mirror = ball_mirror.GetComponent<Rigidbody>();
     }
 
-	void FixedUpdate()
+    void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        Vector3 movement_mirror = new Vector3(moveHorizontal, 0.0f, -moveVertical);
 
-        rb.AddForce(movement * speed);
+        rb_ball.AddForce(movement * speed);
+        rb_ball_mirror.AddForce(movement_mirror * speed);
     }
 }
