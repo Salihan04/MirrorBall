@@ -16,5 +16,6 @@ public class ExitTriggerControl : MonoBehaviour {
     void OnTriggerExit(Collider other)
     {
         Debug.Log("Exited trigger");
+        Application.LoadLevel(Application.loadedLevel);
     }
 }

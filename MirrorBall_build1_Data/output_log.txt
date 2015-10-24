@@ -2,9 +2,9 @@ Mono path[0] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build1_Data/Managed'
 Mono path[1] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build1_Data/Mono'
 Mono config path = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build1_Data/Mono/etc'
 PlayerConnection initialized from E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build1_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55062
-Multi-casting "[IP] 192.168.56.1 [Port] 55062 [Flags] 2 [Guid] 4257295909 [EditorId] 4137288679 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.56.1:55062]
+PlayerConnection initialized network socket : 0.0.0.0 55452
+Multi-casting "[IP] 192.168.56.1 [Port] 55452 [Flags] 2 [Guid] 1159419139 [EditorId] 87381945 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.56.1:55452]
 Initialize engine version: 5.2.1f1 (44735ea161b3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -24,15 +24,15 @@ Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build1_Data\Managed\UnityEngine.Ne
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build1_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build1_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build1_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.337 seconds
+- Completed reload, in  0.167 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build1_Data\Managed\System.dll (this message is harmless)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 23e8 -> priority: 1 
-  Thread -> id: 2f74 -> priority: 1 
+  Thread -> id: 194c -> priority: 1 
+  Thread -> id: 3d0 -> priority: 1 
 Entered trigger
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
@@ -89,12 +89,54 @@ ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets
  
 (Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
 
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+
 Entered trigger
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
 UnityEngine.Debug:Log(Object)
 ExitTriggerControl:OnTriggerEnter(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:8)
  
 (Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 8)
+
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+
+Still in trigger
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
 
 Still in trigger
 UnityEngine.Debug:Internal_Log(Int32, String, Object)
@@ -320,38 +362,11 @@ ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets
  
 (Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
 
-Still in trigger
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
- 
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.611714 ms
+System memory in use before: 21.4 MB.
+System memory in use after: 21.4 MB.
 
-Still in trigger
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
- 
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
-
-Still in trigger
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
- 
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
-
-Still in trigger
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ExitTriggerControl:OnTriggerStay(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:13)
- 
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 13)
-
-Exited trigger
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-ExitTriggerControl:OnTriggerExit(Collider) (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\ExitTriggerControl.cs:18)
- 
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/ExitTriggerControl.cs Line: 18)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 366.
+Total: 1.008302 ms (FindLiveObjects: 0.158470 ms CreateObjectMapping: 0.121932 ms MarkObjects: 0.672475 ms  DeleteObjects: 0.051318 ms)
 
