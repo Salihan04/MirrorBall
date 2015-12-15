@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Leap;
 
 public class BallController : MonoBehaviour {
 
@@ -7,6 +8,8 @@ public class BallController : MonoBehaviour {
     private GameObject ball_mirror;
     private Rigidbody rb_ball;
     private Rigidbody rb_ball_mirror;
+
+    private Controller LEAPcontroller;
 
     public float speed;
 
@@ -16,6 +19,12 @@ public class BallController : MonoBehaviour {
         ball_mirror = GameObject.Find("/Ball_Mirror");
         rb_ball = ball.GetComponent<Rigidbody>();
         rb_ball_mirror = ball_mirror.GetComponent<Rigidbody>();
+
+        LEAPcontroller = new Controller();
+        if (LEAPcontroller.IsConnected)
+            Debug.Log("Leap connected!");
+        else
+            Debug.Log("Leap is NOT connected!");
     }
 
     void FixedUpdate()
