@@ -23,6 +23,7 @@ public class BallController : MonoBehaviour {
         rb_ball_mirror = ball_mirror.GetComponent<Rigidbody>();
 
         LEAPcontroller = new Controller();
+        //Check if LEAPController is connected or not
         if (LEAPcontroller.IsConnected)
             Debug.Log("Leap connected!");
         else
@@ -31,48 +32,17 @@ public class BallController : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float moveHorizontal;
-        float moveVertical;
+        //Move ball and ball_mirror using keyboard input
+        moveUsingKeyboard();
 
-        Vector3 movement;
-        Vector3 movement_mirror;
-        Frame currFrame;
-        Frame prevFrame;
-        HandList hands;
+        //Initialise hand for current frame
+        initHand();
 
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical = Input.GetAxis("Vertical");
-        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        movement_mirror = new Vector3(moveHorizontal, 0.0f, -moveVertical);
-
-        rb_ball.AddForce(movement * speed);
-        rb_ball_mirror.AddForce(movement_mirror * speed);
-
-        currFrame = LEAPcontroller.Frame();   //get current frame
-        prevFrame = LEAPcontroller.Frame(1);  //get previous frame
-        hands = currFrame.Hands;
-        hand = hands[0];
+        //Move ball and ball_mirror using Leap Motion
+        moveUsingLeap();
 
         //float pitch = hand.Direction.Pitch;
         //Debug.Log("pitch: " + pitch);
-
-        if (yaw > 0.3f)
-        {
-            ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
-            ball_mirror.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
-        }
-        else if (yaw < -0.3f)
-        {
-            ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
-            ball_mirror.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
-        }
-
-        //float rotationAroundXAxis = hand.RotationAngle(prevFrame, Vector.XAxis);
-        //Debug.Log("rotation x-axis: " + rotationAroundXAxis);
-        //if (rotationAroundXAxis > 0)
-        //    ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, 0.1f) * speed);
-        //else
-        //    ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, -0.1f) * speed);
     }
 
     void Update()
@@ -89,5 +59,58 @@ public class BallController : MonoBehaviour {
             yaw = hand.Direction.Yaw;
             Debug.Log("yaw: " + yaw);
         }
+    }
+
+    void moveUsingKeyboard()
+    {
+        float moveHorizontal;
+        float moveVertical;
+
+        Vector3 movement;
+        Vector3 movement_mirror;
+
+        //Get horizontal and vertical input data
+        moveHorizontal = Input.GetAxis("Horizontal");
+        moveVertical = Input.GetAxis("Vertical");
+
+        //Compute movement based on input data
+        movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        movement_mirror = new Vector3(moveHorizontal, 0.0f, -moveVertical);
+
+        //Add force to rigidbody of ball and ball_mirror to move them
+        rb_ball.AddForce(movement * speed);
+        rb_ball_mirror.AddForce(movement_mirror * speed);
+    }
+
+    void initHand()
+    {
+        Frame currFrame;
+        HandList hands;
+
+        currFrame = LEAPcontroller.Frame();   //get current frame
+        hands = currFrame.Hands;
+        hand = hands[0];
+    }
+
+    void moveUpDownUsingLeap()
+    {
+        //Move ball forward and ball_mirror backward when yaw of hand is > 0.3f
+        if (yaw > 0.3f)
+        {
+            rb_ball.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
+            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
+        }
+        //Move ball backward and ball_mirror forward when yaw of hand is < -0.3f
+        else if (yaw < -0.3f)
+        {
+            rb_ball.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
+            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
+        }
+    }
+
+    void moveUsingLeap()
+    {
+        //Move ball forward and ball_mirror backward using Leap Motion
+        moveUpDownUsingLeap();
     }
 }
