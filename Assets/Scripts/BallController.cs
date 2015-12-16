@@ -58,13 +58,13 @@ public class BallController : MonoBehaviour {
 
         if (yaw > 0.3f)
         {
-            ball.GetComponent<Rigidbody>().WakeUp();
             ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
+            ball_mirror.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
         }
         else if (yaw < -0.3f)
         {
-            ball.GetComponent<Rigidbody>().WakeUp();
             ball.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
+            ball_mirror.GetComponent<Rigidbody>().AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
         }
 
         //float rotationAroundXAxis = hand.RotationAngle(prevFrame, Vector.XAxis);
