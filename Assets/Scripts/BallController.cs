@@ -12,6 +12,7 @@ public class BallController : MonoBehaviour {
     private Hand hand;
 
     private float pitch;
+    private float yaw;
 
     public float speed;
 
@@ -40,9 +41,6 @@ public class BallController : MonoBehaviour {
 
         //Move ball and ball_mirror using Leap Motion
         moveUsingLeap();
-
-        //float pitch = hand.Direction.Pitch;
-        //Debug.Log("pitch: " + pitch);
     }
 
     void Update()
@@ -51,13 +49,17 @@ public class BallController : MonoBehaviour {
         {
             Debug.Log("No hands detected!");
             pitch = 0.0f;
-            Debug.Log("pitch: " + pitch);
+            //Debug.Log("pitch: " + pitch);
+            yaw = 0.0f;
+            //Debug.Log("yaw: " + yaw);
         }
         else if (LEAPcontroller.Frame().Hands.Count > 0)
         {
             Debug.Log("Hand detected!");
             pitch = hand.Direction.Pitch;
-            Debug.Log("pitch: " + pitch);
+            //Debug.Log("pitch: " + pitch);
+            yaw = hand.Direction.Yaw;
+            //Debug.Log("yaw: " + yaw);
         }
     }
 
@@ -94,13 +96,13 @@ public class BallController : MonoBehaviour {
 
     void moveUpDownUsingLeap()
     {
-        //Move ball forward and ball_mirror backward when pitch of hand is > 0.3f
+        //Move ball forward and ball_mirror backward when pitch of hand is > 1.0f
         if (pitch > 1.0f)
         {
             rb_ball.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
             rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
         }
-        //Move ball backward and ball_mirror forward when pitch of hand is < -0.3f
+        //Move ball backward and ball_mirror forward when pitch of hand is < -1.0f
         else if (pitch < -1.0f)
         {
             rb_ball.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
@@ -108,9 +110,28 @@ public class BallController : MonoBehaviour {
         }
     }
 
+    void moveLeftRightUsingLeap()
+    {
+        //Move both ball and ball_mirror right when yaw > 1.0f
+        if(yaw > 1.0f)
+        {
+            rb_ball.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed);
+            rb_ball_mirror.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed);
+        }
+        //Move both ball and ball_mirror left when yaw < -1.0f
+        //Easier
+        else if (yaw < -1.0f)
+        {
+            rb_ball.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed);
+            rb_ball_mirror.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed);
+        }
+    }
+
     void moveUsingLeap()
     {
-        //Move ball forward and ball_mirror backward using Leap Motion
+        //Move ball forward and ball_mirror backward and vice versa using Leap Motion
         moveUpDownUsingLeap();
+        //Move ball and ball_mirror left or right using Leap Motion
+        moveLeftRightUsingLeap();
     }
 }
