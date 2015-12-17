@@ -11,7 +11,7 @@ public class BallController : MonoBehaviour {
     private Controller LEAPcontroller;
     private Hand hand;
 
-    private float yaw;
+    private float pitch;
 
     public float speed;
 
@@ -50,14 +50,14 @@ public class BallController : MonoBehaviour {
         if (LEAPcontroller.Frame().Hands.Count == 0)
         {
             Debug.Log("No hands detected!");
-            yaw = 0.0f;
-            Debug.Log("yaw: " + yaw);
+            pitch = 0.0f;
+            Debug.Log("pitch: " + pitch);
         }
         else if (LEAPcontroller.Frame().Hands.Count > 0)
         {
             Debug.Log("Hand detected!");
-            yaw = hand.Direction.Yaw;
-            Debug.Log("yaw: " + yaw);
+            pitch = hand.Direction.Pitch;
+            Debug.Log("pitch: " + pitch);
         }
     }
 
@@ -94,14 +94,14 @@ public class BallController : MonoBehaviour {
 
     void moveUpDownUsingLeap()
     {
-        //Move ball forward and ball_mirror backward when yaw of hand is > 0.3f
-        if (yaw > 0.3f)
+        //Move ball forward and ball_mirror backward when pitch of hand is > 0.3f
+        if (pitch > 1.0f)
         {
             rb_ball.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
             rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
         }
-        //Move ball backward and ball_mirror forward when yaw of hand is < -0.3f
-        else if (yaw < -0.3f)
+        //Move ball backward and ball_mirror forward when pitch of hand is < -0.3f
+        else if (pitch < -1.0f)
         {
             rb_ball.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
             rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
