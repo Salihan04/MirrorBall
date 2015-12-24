@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class StartButtonController : MonoBehaviour {
 
 	public void Click()
     {
-        Application.LoadLevel("Level1");
+        SceneManager.LoadScene("Level1");
     }
 }

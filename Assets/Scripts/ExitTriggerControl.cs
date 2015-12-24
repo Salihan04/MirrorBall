@@ -1,21 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class ExitTriggerControl : MonoBehaviour {
 
-	void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Entered trigger");
-    }
-
     void OnTriggerStay(Collider other)
     {
-        Debug.Log("Still in trigger");
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        Debug.Log("Exited trigger");
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene("Credit Screen");
     }
 }
