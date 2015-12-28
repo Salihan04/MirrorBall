@@ -188,7 +188,7 @@ Transform:
   - {fileID: 564927434}
   - {fileID: 1090119824}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &124391699
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +603,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &671826632
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,58 +935,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 996232394}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1006397307
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1006397310}
-  - 135: {fileID: 1006397309}
-  - 114: {fileID: 1006397308}
-  m_Layer: 0
-  m_Name: Exit Trigger_Mirrored
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1006397308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1006397307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2da69dbd5eda8b640adcdbe93a1684a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!135 &1006397309
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1006397307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1006397310
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1006397307}
-  m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0.5, z: 15}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
 --- !u!1 &1090119823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,7 +994,7 @@ Transform:
   - {fileID: 15338322}
   - {fileID: 980910298}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!1 &1225800968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,7 +1107,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9f2277f2b4414ff9abf05e783890171, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9f2277f2b4414ff9abf05e783890171, type: 2}
       propertyPath: m_LocalScale.x
@@ -1271,7 +1219,7 @@ RectTransform:
   m_Children:
   - {fileID: 1702879807}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1412,7 +1360,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
 --- !u!1 &1455080304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1437,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!114 &1455080309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,7 +1825,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1702879806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1991,6 +1939,7 @@ GameObject:
   - 4: {fileID: 1779158364}
   - 114: {fileID: 1779158362}
   - 65: {fileID: 1779158363}
+  - 114: {fileID: 1779158365}
   m_Layer: 0
   m_Name: Exit Trigger
   m_TagString: Untagged
@@ -2032,7 +1981,18 @@ Transform:
   m_LocalScale: {x: 1.5753597, y: 1.1813663, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
+--- !u!114 &1779158365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1779158361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da69dbd5eda8b640adcdbe93a1684a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2091362476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,7 +2069,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!114 &2091362481
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -6,6 +6,17 @@ public class ExitTriggerControl : MonoBehaviour {
 
     void OnTriggerStay(Collider other)
     {
-        SceneManager.LoadScene("Credit Screen");
+        switch(SceneManager.GetActiveScene().name)
+        {
+            case "Level1":
+                SceneManager.LoadScene("Level2");
+                break;
+            case "Level2":
+                SceneManager.LoadScene("Credit Screen");
+                break;
+            default:
+                SceneManager.LoadScene("Credit Screen");
+                break;
+        }
     }
 }
