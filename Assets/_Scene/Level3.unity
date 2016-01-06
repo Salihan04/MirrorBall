@@ -381,6 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81466914d355a3a4b88c8f839ecb9134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materials: []
   speed: 10
 --- !u!135 &215887079
 SphereCollider:
@@ -1243,7 +1244,7 @@ Light:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1302875871}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.69803923, b: 0.05490196, a: 1}
@@ -1715,7 +1716,7 @@ Light:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1629298373}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 6
   m_Type: 2
   m_Color: {r: 1, g: 0.69803923, b: 0.05490196, a: 1}
@@ -1954,6 +1955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81466914d355a3a4b88c8f839ecb9134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materials: []
   speed: 10
 --- !u!135 &1767243575
 SphereCollider:
@@ -2034,7 +2036,7 @@ Halo:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767243573}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Color:
     serializedVersion: 2
     rgba: 4279153407

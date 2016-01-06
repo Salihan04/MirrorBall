@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using Leap;
+using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour {
 
@@ -10,18 +11,28 @@ public class BallController : MonoBehaviour {
     private Rigidbody rb_ball_mirror;
     private Controller LEAPcontroller;
     private Hand hand;
+    private Behaviour halo;
+    private GameObject ballPointLight;
+    private GameObject ballMirrorPointLight;
 
     private float pitch;
     private float yaw;
-
+    private bool isGlowing;
+    private float countdown;
+    
     public float speed;
 
     void Start()
     {
+        isGlowing = false;
+
         ball = GameObject.Find("/Ball");
         ball_mirror = GameObject.Find("/Ball_Mirror");
         rb_ball = ball.GetComponent<Rigidbody>();
         rb_ball_mirror = ball_mirror.GetComponent<Rigidbody>();
+
+        ballPointLight = GameObject.Find("/Ball/Point light");
+        ballMirrorPointLight = GameObject.Find("/Ball_Mirror/Point light");
 
         LEAPcontroller = new Controller();
         //Check if LEAPController is connected or not
@@ -29,6 +40,8 @@ public class BallController : MonoBehaviour {
             Debug.Log("Leap connected!");
         else
             Debug.Log("Leap is NOT connected!");
+
+        halo = (Behaviour)ball_mirror.GetComponent("Halo");
     }
 
     void FixedUpdate()
@@ -60,6 +73,19 @@ public class BallController : MonoBehaviour {
             //Debug.Log("pitch: " + pitch);
             yaw = hand.Direction.Yaw;
             //Debug.Log("yaw: " + yaw);
+        }
+
+        glow();
+        if(isGlowing)
+        {
+            countdown -= Time.deltaTime;
+            if(countdown <= 0)
+            {
+                halo.enabled = false;
+                ballPointLight.GetComponent<Light>().enabled = false;
+                ballMirrorPointLight.GetComponent<Light>().enabled = false;
+                isGlowing = false;
+            }
         }
     }
 
@@ -133,5 +159,25 @@ public class BallController : MonoBehaviour {
         moveUpDownUsingLeap();
         //Move ball and ball_mirror left or right using Leap Motion
         moveLeftRightUsingLeap();
+    }
+
+    void glow()
+    {
+        if (SceneManager.GetActiveScene().name.Equals("Level3"))
+        {
+            if (Input.GetKeyUp(KeyCode.Space))
+            {
+                halo.enabled = true;
+                ballPointLight.GetComponent<Light>().enabled = true;
+                ballMirrorPointLight.GetComponent<Light>().enabled = true;
+                isGlowing = true;
+                StartTimer(10.0f);
+            }
+        }
+    }
+
+    void StartTimer(float time)
+    {
+        countdown = time;
     }
 }
