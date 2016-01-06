@@ -7,19 +7,21 @@ public class BallController : MonoBehaviour {
 
     private GameObject ball;
     private GameObject ball_mirror;
+    private GameObject ballPointLight;
+    private GameObject ballMirrorPointLight;
     private Rigidbody rb_ball;
     private Rigidbody rb_ball_mirror;
     private Controller LEAPcontroller;
     private Hand hand;
     private Behaviour halo;
-    private GameObject ballPointLight;
-    private GameObject ballMirrorPointLight;
+    private Renderer ballMirrorRenderer;
 
     private float pitch;
     private float yaw;
-    private bool isGlowing;
     private float countdown;
-    
+    private bool isGlowing;
+
+    public Material[] materials;
     public float speed;
 
     void Start()
@@ -33,6 +35,8 @@ public class BallController : MonoBehaviour {
 
         ballPointLight = GameObject.Find("/Ball/Point light");
         ballMirrorPointLight = GameObject.Find("/Ball_Mirror/Point light");
+
+        ballMirrorRenderer = ball_mirror.GetComponent<Renderer>();
 
         LEAPcontroller = new Controller();
         //Check if LEAPController is connected or not
@@ -75,15 +79,20 @@ public class BallController : MonoBehaviour {
             //Debug.Log("yaw: " + yaw);
         }
 
+        //Simulate glowing ball in scene
         glow();
         if(isGlowing)
         {
             countdown -= Time.deltaTime;
             if(countdown <= 0)
             {
+                //Countdown finish
+                //Disable Ball_Mirror's Halo and Point light as well as Ball's Point light
+                //Also change Ball_Mirror's material to Ball Color
                 halo.enabled = false;
                 ballPointLight.GetComponent<Light>().enabled = false;
                 ballMirrorPointLight.GetComponent<Light>().enabled = false;
+                ballMirrorRenderer.material = materials[0];
                 isGlowing = false;
             }
         }
@@ -163,13 +172,18 @@ public class BallController : MonoBehaviour {
 
     void glow()
     {
+        //Only Level3 has this feature
         if (SceneManager.GetActiveScene().name.Equals("Level3"))
         {
             if (Input.GetKeyUp(KeyCode.Space))
             {
+                //Enable Ball_Mirror's Halo and Point light as well as Ball's Point light
+                //Also change Ball_Mirror's material to Glow
+                //Start timer for 10 seconds
                 halo.enabled = true;
                 ballPointLight.GetComponent<Light>().enabled = true;
                 ballMirrorPointLight.GetComponent<Light>().enabled = true;
+                ballMirrorRenderer.material = materials[1];
                 isGlowing = true;
                 StartTimer(10.0f);
             }
