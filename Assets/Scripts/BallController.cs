@@ -2,6 +2,7 @@
 using System.Collections;
 using Leap;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class BallController : MonoBehaviour {
 
@@ -15,6 +16,7 @@ public class BallController : MonoBehaviour {
     private Hand hand;
     private Behaviour halo;
     private Renderer ballMirrorRenderer;
+    public Text countdownText;
 
     private float pitch;
     private float yaw;
@@ -37,6 +39,9 @@ public class BallController : MonoBehaviour {
         ballMirrorPointLight = GameObject.Find("/Ball_Mirror/Point light");
 
         ballMirrorRenderer = ball_mirror.GetComponent<Renderer>();
+
+        Text[] texts = GameObject.Find("Canvas").GetComponentsInChildren<Text>();
+        countdownText = texts[1];
 
         LEAPcontroller = new Controller();
         //Check if LEAPController is connected or not
@@ -64,7 +69,7 @@ public class BallController : MonoBehaviour {
     {
         if (LEAPcontroller.Frame().Hands.Count == 0)
         {
-            Debug.Log("No hands detected!");
+            //Debug.Log("No hands detected!");
             pitch = 0.0f;
             //Debug.Log("pitch: " + pitch);
             yaw = 0.0f;
@@ -72,7 +77,7 @@ public class BallController : MonoBehaviour {
         }
         else if (LEAPcontroller.Frame().Hands.Count > 0)
         {
-            Debug.Log("Hand detected!");
+            //Debug.Log("Hand detected!");
             pitch = hand.Direction.Pitch;
             //Debug.Log("pitch: " + pitch);
             yaw = hand.Direction.Yaw;
@@ -84,6 +89,7 @@ public class BallController : MonoBehaviour {
         if(isGlowing)
         {
             countdown -= Time.deltaTime;
+            countdownText.text = ((int) countdown).ToString();
             if(countdown <= 0)
             {
                 //Countdown finish
@@ -94,6 +100,7 @@ public class BallController : MonoBehaviour {
                 ballMirrorPointLight.GetComponent<Light>().enabled = false;
                 ballMirrorRenderer.material = materials[0];
                 isGlowing = false;
+                countdownText.text = "10";
             }
         }
     }
@@ -177,6 +184,10 @@ public class BallController : MonoBehaviour {
         {
             if (Input.GetKeyUp(KeyCode.Space))
             {
+                Color color = countdownText.color;
+                color.a = 1.0f;
+                countdownText.color = color;
+
                 //Enable Ball_Mirror's Halo and Point light as well as Ball's Point light
                 //Also change Ball_Mirror's material to Glow
                 //Start timer for 10 seconds
@@ -184,8 +195,9 @@ public class BallController : MonoBehaviour {
                 ballPointLight.GetComponent<Light>().enabled = true;
                 ballMirrorPointLight.GetComponent<Light>().enabled = true;
                 ballMirrorRenderer.material = materials[1];
-                isGlowing = true;
-                StartTimer(10.0f);
+
+                //Time is 11 seconds because I want the countdown to display from 10 down to 0
+                StartTimer(11.0f);
             }
         }
     }
@@ -193,5 +205,6 @@ public class BallController : MonoBehaviour {
     void StartTimer(float time)
     {
         countdown = time;
+        isGlowing = true;
     }
 }
