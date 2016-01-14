@@ -196,7 +196,7 @@ public class BallController : MonoBehaviour {
         //Only Level3 has this feature
         if (SceneManager.GetActiveScene().name.Equals("Level3"))
         {
-            if (Input.GetKeyUp(KeyCode.Space) && !isGlowing)
+            if ((Input.GetKeyUp(KeyCode.Space) || (hand.GrabStrength == 1 && hand.SphereRadius < 35.0f)) && !isGlowing)
             {
                 //Max out alpha of countdown text and light icon
                 Color color = countdownText.color;
