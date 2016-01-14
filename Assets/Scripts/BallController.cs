@@ -185,10 +185,13 @@ public class BallController : MonoBehaviour {
 
     void moveUsingLeap()
     {
-        //Move ball forward and ball_mirror backward and vice versa using Leap Motion
-        moveUpDownUsingLeap();
-        //Move ball and ball_mirror left or right using Leap Motion
-        moveLeftRightUsingLeap();
+        if (hand.GrabStrength == 0 && hand.SphereRadius > 35.0f)
+        {
+            //Move ball forward and ball_mirror backward and vice versa using Leap Motion
+            moveUpDownUsingLeap();
+            //Move ball and ball_mirror left or right using Leap Motion
+            moveLeftRightUsingLeap();
+        }
     }
 
     void glow()
