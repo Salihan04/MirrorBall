@@ -41,10 +41,13 @@ public class BallController : MonoBehaviour {
 
         ballMirrorRenderer = ball_mirror.GetComponent<Renderer>();
 
-        GameObject canvas = GameObject.Find("Canvas");
-        Text[] texts = canvas.GetComponentsInChildren<Text>();
-        countdownText = texts[1];
-        lightIcon = canvas.GetComponentInChildren<RawImage>();
+        if(SceneManager.GetActiveScene().name.Equals("Level3"))
+        {
+            GameObject canvas = GameObject.Find("Canvas");
+            Text[] texts = canvas.GetComponentsInChildren<Text>();
+            countdownText = texts[1];
+            lightIcon = canvas.GetComponentInChildren<RawImage>();
+        }
 
         LEAPcontroller = new Controller();
         //Check if LEAPController is connected or not

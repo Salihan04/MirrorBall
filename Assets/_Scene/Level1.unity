@@ -1449,6 +1449,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81466914d355a3a4b88c8f839ecb9134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: d8e5934f3ad1d0142aff27d4e661d196, type: 2}
+  - {fileID: 2100000, guid: 3276265ab1777fd4a99d2edb8c151048, type: 2}
   speed: 10
 --- !u!54 &1455080310
 Rigidbody:
@@ -2081,6 +2084,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81466914d355a3a4b88c8f839ecb9134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: d8e5934f3ad1d0142aff27d4e661d196, type: 2}
+  - {fileID: 2100000, guid: 3276265ab1777fd4a99d2edb8c151048, type: 2}
   speed: 10
 --- !u!54 &2091362482
 Rigidbody:
