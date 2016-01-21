@@ -12,7 +12,7 @@ public class ExitTriggerControl : MonoBehaviour {
                 SceneManager.LoadScene("Level2");
                 break;
             case "Level2":
-                SceneManager.LoadScene("Credit Screen");
+                SceneManager.LoadScene("Level3");
                 break;
             default:
                 SceneManager.LoadScene("Credit Screen");
