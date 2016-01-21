@@ -41,7 +41,7 @@ public class BallController : MonoBehaviour {
 
         ballMirrorRenderer = ball_mirror.GetComponent<Renderer>();
 
-        if(SceneManager.GetActiveScene().name.Equals("Level3"))
+        if(SceneManager.GetActiveScene().name.Equals("Level3") || SceneManager.GetActiveScene().name.Equals("Level4"))
         {
             GameObject canvas = GameObject.Find("Canvas");
             Text[] texts = canvas.GetComponentsInChildren<Text>();
@@ -200,7 +200,7 @@ public class BallController : MonoBehaviour {
     void glow()
     {
         //Only Level3 has this feature
-        if (SceneManager.GetActiveScene().name.Equals("Level3"))
+        if (SceneManager.GetActiveScene().name.Equals("Level3") || SceneManager.GetActiveScene().name.Equals("Level4"))
         {
             if ((Input.GetKeyUp(KeyCode.Space) || (hand.GrabStrength == 1 && hand.SphereRadius < 35.0f)) && !isGlowing)
             {
