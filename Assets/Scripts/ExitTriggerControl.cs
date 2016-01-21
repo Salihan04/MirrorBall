@@ -14,6 +14,9 @@ public class ExitTriggerControl : MonoBehaviour {
             case "Level2":
                 SceneManager.LoadScene("Level3");
                 break;
+            case "Level3":
+                SceneManager.LoadScene("Level4");
+                break;
             default:
                 SceneManager.LoadScene("Credit Screen");
                 break;
