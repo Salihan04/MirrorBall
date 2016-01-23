@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 67012028}
   m_Layer: 0
-  m_Name: Arena_Mirrored
+  m_Name: PlayArea_Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -975,7 +975,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1168111830}
   m_Layer: 0
-  m_Name: Arena
+  m_Name: PlayArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1840,7 +1840,7 @@ GameObject:
   - 222: {fileID: 1702879809}
   - 114: {fileID: 1702879808}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Level Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

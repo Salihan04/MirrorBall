@@ -469,7 +469,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 272340202}
   m_Layer: 0
-  m_Name: Arena
+  m_Name: PlayArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -498,7 +498,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 314029317}
   m_Layer: 0
-  m_Name: Arena_Mirrored
+  m_Name: PlayArea_Mirrored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
