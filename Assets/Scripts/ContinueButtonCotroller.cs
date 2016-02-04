@@ -2,10 +2,10 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class StartButtonController : MonoBehaviour {
+public class ContinueButtonCotroller : MonoBehaviour {
 
 	public void Click()
     {
-        SceneManager.LoadScene("Instructions Screen");
+        SceneManager.LoadScene("Level1");
     }
 }
