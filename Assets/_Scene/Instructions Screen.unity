@@ -843,9 +843,78 @@ Prefab:
       propertyPath: m_Name
       value: Hand To Clench
       objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.46842107
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.11632204
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.60901254
+      objectReference: {fileID: 0}
+    - target: {fileID: 400038, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.6294082
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.04326978
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.02254111
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.29235485
+      objectReference: {fileID: 0}
+    - target: {fileID: 400028, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.9550646
+      objectReference: {fileID: 0}
+    - target: {fileID: 400036, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.07900511
+      objectReference: {fileID: 0}
+    - target: {fileID: 400036, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.08551122
+      objectReference: {fileID: 0}
+    - target: {fileID: 400036, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.0007280857
+      objectReference: {fileID: 0}
+    - target: {fileID: 400036, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.99319965
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &885879796 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
+  m_PrefabInternal: {fileID: 885879795}
+--- !u!95 &885879797
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885879796}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e358694fab5ee9846b460e2713c82b3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1031708470
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,7 +975,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1 &1041258778
 GameObject:
   m_ObjectHideFlags: 0
