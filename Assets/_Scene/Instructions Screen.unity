@@ -801,27 +801,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.19561914
+      value: -0.58142614
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -0.03780818
+      value: 0.06804204
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.58412904
+      value: 0.5797888
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.21504705
+      value: -0.409069
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.78036577
+      value: -0.698483
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.059810802
+      value: 0.092892595
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 04bf48858739548a7bfa278f04616f75, type: 2}
       propertyPath: m_RootOrder

@@ -18,23 +18,176 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: {x: -61.1173, y: 118.5904, z: -62.6}
-        inSlope: {x: 0, y: 0, z: -19.200005}
-        outSlope: {x: 0, y: 0, z: -19.200005}
+        inSlope: {x: 0, y: 0, z: -19.55}
+        outSlope: {x: 0, y: 0, z: -19.55}
         tangentMode: 0
-      - time: 1
-        value: {x: -61.1173, y: 118.5904, z: -81.8}
-        inSlope: {x: 0, y: 0, z: -19.200005}
-        outSlope: {x: 0, y: 0, z: -19.200005}
+      - time: 2
+        value: {x: -61.1173, y: 118.5904, z: -101.7}
+        inSlope: {x: 0, y: 0, z: -19.55}
+        outSlope: {x: 0, y: 0, z: -19.55}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: HandContainer/Bip01 R Hand/Bip01 R Finger0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.9836, y: -3.9290998, z: -34.1765}
+        inSlope: {x: 0, y: 0, z: -36.361748}
+        outSlope: {x: 0, y: 0, z: -36.361748}
+        tangentMode: 0
+      - time: 2
+        value: {x: 3.9836, y: -3.9290998, z: -106.899994}
+        inSlope: {x: 0, y: 0, z: -36.361748}
+        outSlope: {x: 0, y: 0, z: -36.361748}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -9.0363, y: 9.896999, z: -0.7}
+        inSlope: {x: 0, y: 0, z: -43.8}
+        outSlope: {x: 0, y: 0, z: -43.8}
+        tangentMode: 0
+      - time: 2
+        value: {x: -9.0363, y: 9.896999, z: -88.299995}
+        inSlope: {x: 0, y: 0, z: -43.8}
+        outSlope: {x: 0, y: 0, z: -43.8}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.3543, y: -1.4908999, z: -18.402}
+        inSlope: {x: 0, y: 0, z: -34.549}
+        outSlope: {x: 0, y: 0, z: -34.549}
+        tangentMode: 0
+      - time: 2
+        value: {x: -0.3543, y: -1.4908999, z: -87.5}
+        inSlope: {x: 0, y: 0, z: -34.549}
+        outSlope: {x: 0, y: 0, z: -34.549}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.5856998, y: 1.0292, z: -1.2528}
+        inSlope: {x: -8.112849, y: 0, z: -39.1736}
+        outSlope: {x: -8.112849, y: 0, z: -39.1736}
+        tangentMode: 0
+      - time: 2
+        value: {x: -12.639999, y: 1.0292, z: -79.6}
+        inSlope: {x: -8.112849, y: 0, z: -39.1736}
+        outSlope: {x: -8.112849, y: 0, z: -39.1736}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 3.9648, y: -0.1361, z: -22.307299}
+        inSlope: {x: 0, y: 0, z: -42.29635}
+        outSlope: {x: 0, y: 0, z: -42.29635}
+        tangentMode: 0
+      - time: 2
+        value: {x: 3.9648, y: -0.1361, z: -106.899994}
+        inSlope: {x: 0, y: 0, z: -42.29635}
+        outSlope: {x: 0, y: 0, z: -42.29635}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 8.9162, y: -7.9466, z: -2.3792999}
+        inSlope: {x: -12.598099, y: 0, z: -42.070347}
+        outSlope: {x: -12.598099, y: 0, z: -42.070347}
+        tangentMode: 0
+      - time: 2
+        value: {x: -16.279999, y: -7.9466, z: -86.52}
+        inSlope: {x: -12.598099, y: 0, z: -42.070347}
+        outSlope: {x: -12.598099, y: 0, z: -42.070347}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 4.4072, y: -2.503, z: -30.9965}
+        inSlope: {x: 0, y: 0, z: -36.80175}
+        outSlope: {x: 0, y: 0, z: -36.80175}
+        tangentMode: 0
+      - time: 2
+        value: {x: 4.4072, y: -2.503, z: -104.6}
+        inSlope: {x: 0, y: 0, z: -36.80175}
+        outSlope: {x: 0, y: 0, z: -36.80175}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 20.5068, y: -22.9816, z: -10.471499}
+        inSlope: {x: -19.5834, y: 0, z: -48.06425}
+        outSlope: {x: -19.5834, y: 0, z: -48.06425}
+        tangentMode: 0
+      - time: 2
+        value: {x: -18.66, y: -22.9816, z: -106.6}
+        inSlope: {x: -19.5834, y: 0, z: -48.06425}
+        outSlope: {x: -19.5834, y: 0, z: -48.06425}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -3.9622998, y: 0.48, z: -20.449799}
+        inSlope: {x: 0, y: 0, z: -32.6251}
+        outSlope: {x: 0, y: 0, z: -32.6251}
+        tangentMode: 0
+      - time: 2
+        value: {x: -3.9622998, y: 0.48, z: -85.7}
+        inSlope: {x: 0, y: 0, z: -32.6251}
+        outSlope: {x: 0, y: 0, z: -32.6251}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
-  m_SampleRate: 60
+  m_SampleRate: 30
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -47,13 +200,67 @@ AnimationClip:
       classID: 4
       customType: 14
       isPPtrCurve: 0
+    - path: 1080555218
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2051404115
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 3056497010
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 3813449961
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2005270483
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2487980159
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 2177661043
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 170853852
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - path: 799270096
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
+      isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -77,7 +284,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 1
+      - time: 2
         value: -61.1173
         inSlope: 0
         outSlope: 0
@@ -97,7 +304,7 @@ AnimationClip:
         inSlope: 0
         outSlope: 0
         tangentMode: 10
-      - time: 1
+      - time: 2
         value: 118.5904
         inSlope: 0
         outSlope: 0
@@ -114,19 +321,559 @@ AnimationClip:
       m_Curve:
       - time: 0
         value: -62.6
-        inSlope: -19.200005
-        outSlope: -19.200005
+        inSlope: -19.55
+        outSlope: -19.55
         tangentMode: 10
-      - time: 1
-        value: -81.8
-        inSlope: -19.200005
-        outSlope: -19.200005
+      - time: 2
+        value: -101.7
+        inSlope: -19.55
+        outSlope: -19.55
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: HandContainer/Bip01 R Hand/Bip01 R Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.9836
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 3.9836
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.9290998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -3.9290998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -34.1765
+        inSlope: -36.361748
+        outSlope: -36.361748
+        tangentMode: 10
+      - time: 2
+        value: -106.899994
+        inSlope: -36.361748
+        outSlope: -36.361748
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -9.0363
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -9.0363
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 9.896999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 9.896999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.7
+        inSlope: -43.8
+        outSlope: -43.8
+        tangentMode: 10
+      - time: 2
+        value: -88.299995
+        inSlope: -43.8
+        outSlope: -43.8
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.3543
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -0.3543
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.4908999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -1.4908999
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -18.402
+        inSlope: -34.549
+        outSlope: -34.549
+        tangentMode: 10
+      - time: 2
+        value: -87.5
+        inSlope: -34.549
+        outSlope: -34.549
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.5856998
+        inSlope: -8.112849
+        outSlope: -8.112849
+        tangentMode: 10
+      - time: 2
+        value: -12.639999
+        inSlope: -8.112849
+        outSlope: -8.112849
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.0292
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 1.0292
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.2528
+        inSlope: -39.1736
+        outSlope: -39.1736
+        tangentMode: 10
+      - time: 2
+        value: -79.6
+        inSlope: -39.1736
+        outSlope: -39.1736
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.9648
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 3.9648
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.1361
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -0.1361
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -22.307299
+        inSlope: -42.29635
+        outSlope: -42.29635
+        tangentMode: 10
+      - time: 2
+        value: -106.899994
+        inSlope: -42.29635
+        outSlope: -42.29635
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 8.9162
+        inSlope: -12.598099
+        outSlope: -12.598099
+        tangentMode: 10
+      - time: 2
+        value: -16.279999
+        inSlope: -12.598099
+        outSlope: -12.598099
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -7.9466
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -7.9466
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -2.3792999
+        inSlope: -42.070347
+        outSlope: -42.070347
+        tangentMode: 10
+      - time: 2
+        value: -86.52
+        inSlope: -42.070347
+        outSlope: -42.070347
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 4.4072
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 4.4072
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -2.503
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -2.503
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -30.9965
+        inSlope: -36.80175
+        outSlope: -36.80175
+        tangentMode: 10
+      - time: 2
+        value: -104.6
+        inSlope: -36.80175
+        outSlope: -36.80175
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 20.5068
+        inSlope: -19.5834
+        outSlope: -19.5834
+        tangentMode: 10
+      - time: 2
+        value: -18.66
+        inSlope: -19.5834
+        outSlope: -19.5834
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -22.9816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -22.9816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -10.471499
+        inSlope: -48.06425
+        outSlope: -48.06425
+        tangentMode: 10
+      - time: 2
+        value: -106.6
+        inSlope: -48.06425
+        outSlope: -48.06425
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.9622998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: -3.9622998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.48
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 0.48
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -20.449799
+        inSlope: -32.6251
+        outSlope: -32.6251
+        tangentMode: 10
+      - time: 2
+        value: -85.7
+        inSlope: -32.6251
+        outSlope: -32.6251
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -136,7 +883,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
+    attribute: m_LocalEulerAngles.z
     path: HandContainer/Bip01 R Hand/Bip01 R Finger0
     classID: 4
     script: {fileID: 0}
@@ -156,8 +903,278 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
+    attribute: m_LocalEulerAngles.x
     path: HandContainer/Bip01 R Hand/Bip01 R Finger0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger3/Bip01 R Finger31
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2/Bip01 R Finger21
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger0/Bip01 R Finger01
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger1/Bip01 R Finger11
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: HandContainer/Bip01 R Hand/Bip01 R Finger4/Bip01 R Finger41
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
