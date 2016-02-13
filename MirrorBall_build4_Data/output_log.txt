@@ -2,9 +2,9 @@ Mono path[0] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build4_Data/Managed'
 Mono path[1] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build4_Data/Mono'
 Mono config path = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build4_Data/Mono/etc'
 PlayerConnection initialized from E:/MY_PORTFOLIO/MirrorBall/MirrorBall_build4_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55027
-Multi-casting "[IP] 192.168.56.1 [Port] 55027 [Flags] 2 [Guid] 3270539841 [EditorId] 1729942398 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.56.1:55027]
+PlayerConnection initialized network socket : 0.0.0.0 55310
+Multi-casting "[IP] 192.168.56.1 [Port] 55310 [Flags] 2 [Guid] 3305305529 [EditorId] 1729942398 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.56.1:55310]
 Initialize engine version: 5.3.2f1 (e87ab445ead0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -23,174 +23,414 @@ Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\Uni
 Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.130 seconds
+- Completed reload, in  0.042 seconds
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_build4_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 1.117506 ms
+UnloadTime: 0.666316 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 620 -> priority: 1 
-  Thread -> id: 3050 -> priority: 1 
+  Thread -> id: f0 -> priority: 1 
+  Thread -> id: 3364 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.594103 ms
-System memory in use before: 22.1 MB.
-System memory in use after: 22.1 MB.
+UnloadTime: 5.009075 ms
+System memory in use before: 21.9 MB.
+System memory in use after: 22.0 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 606.
-Total: 0.441747 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.022169 ms MarkObjects: 0.362922 ms  DeleteObjects: 0.020116 ms)
+Total: 0.361280 ms (FindLiveObjects: 0.039822 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.275066 ms  DeleteObjects: 0.024632 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.422132 ms
+UnloadTime: 1.405299 ms
 System memory in use before: 29.5 MB.
 System memory in use after: 29.5 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 589.
-Total: 0.528783 ms (FindLiveObjects: 0.032843 ms CreateObjectMapping: 0.029969 ms MarkObjects: 0.215126 ms  DeleteObjects: 0.249612 ms)
+Total: 0.578459 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.035306 ms MarkObjects: 0.243043 ms  DeleteObjects: 0.262339 ms)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.158561 ms
-System memory in use before: 27.7 MB.
-System memory in use after: 27.7 MB.
+UnloadTime: 0.750889 ms
+System memory in use before: 33.0 MB.
+System memory in use after: 33.0 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
-Total: 0.583796 ms (FindLiveObjects: 0.057476 ms CreateObjectMapping: 0.084161 ms MarkObjects: 0.417525 ms  DeleteObjects: 0.020937 ms)
+Total: 0.350606 ms (FindLiveObjects: 0.041875 ms CreateObjectMapping: 0.036538 ms MarkObjects: 0.260286 ms  DeleteObjects: 0.009853 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.494479 ms
-System memory in use before: 27.7 MB.
-System memory in use after: 27.7 MB.
+UnloadTime: 1.099032 ms
+System memory in use before: 33.0 MB.
+System memory in use after: 33.0 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
-Total: 0.473770 ms (FindLiveObjects: 0.050086 ms CreateObjectMapping: 0.062813 ms MarkObjects: 0.348143 ms  DeleteObjects: 0.011495 ms)
+Total: 0.372365 ms (FindLiveObjects: 0.041465 ms CreateObjectMapping: 0.043517 ms MarkObjects: 0.274655 ms  DeleteObjects: 0.010674 ms)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.643736 ms
-System memory in use before: 38.5 MB.
-System memory in use after: 38.6 MB.
+UnloadTime: 0.899096 ms
+System memory in use before: 45.5 MB.
+System memory in use after: 45.5 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 618.
-Total: 0.349374 ms (FindLiveObjects: 0.032022 ms CreateObjectMapping: 0.036128 ms MarkObjects: 0.253717 ms  DeleteObjects: 0.025864 ms)
+Total: 0.387555 ms (FindLiveObjects: 0.044338 ms CreateObjectMapping: 0.038180 ms MarkObjects: 0.290666 ms  DeleteObjects: 0.013137 ms)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.041555 ms
-System memory in use before: 38.5 MB.
-System memory in use after: 38.6 MB.
+UnloadTime: 1.275977 ms
+System memory in use before: 44.4 MB.
+System memory in use after: 44.5 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
-Total: 0.274655 ms (FindLiveObjects: 0.029559 ms CreateObjectMapping: 0.032433 ms MarkObjects: 0.206094 ms  DeleteObjects: 0.006158 ms)
+Total: 0.374828 ms (FindLiveObjects: 0.039001 ms CreateObjectMapping: 0.036538 ms MarkObjects: 0.278350 ms  DeleteObjects: 0.018885 ms)
 
-Leap is NOT connected!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.534120 ms
+System memory in use before: 44.4 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.373186 ms (FindLiveObjects: 0.028738 ms CreateObjectMapping: 0.031612 ms MarkObjects: 0.293951 ms  DeleteObjects: 0.018474 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.578049 ms
+System memory in use before: 44.4 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.396587 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.085804 ms MarkObjects: 0.259875 ms  DeleteObjects: 0.008621 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.080968 ms
+System memory in use before: 44.4 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.314888 ms (FindLiveObjects: 0.030380 ms CreateObjectMapping: 0.030380 ms MarkObjects: 0.235653 ms  DeleteObjects: 0.016832 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.588312 ms
+System memory in use before: 44.3 MB.
+System memory in use after: 44.4 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.369491 ms (FindLiveObjects: 0.036128 ms CreateObjectMapping: 0.033664 ms MarkObjects: 0.280813 ms  DeleteObjects: 0.018064 ms)
+
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.978331 ms
-System memory in use before: 35.5 MB.
-System memory in use after: 35.5 MB.
+UnloadTime: 0.767310 ms
+System memory in use before: 44.2 MB.
+System memory in use after: 44.2 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
-Total: 0.557521 ms (FindLiveObjects: 0.064455 ms CreateObjectMapping: 0.062813 ms MarkObjects: 0.415062 ms  DeleteObjects: 0.013548 ms)
+Total: 0.441747 ms (FindLiveObjects: 0.058708 ms CreateObjectMapping: 0.050497 ms MarkObjects: 0.317352 ms  DeleteObjects: 0.013137 ms)
 
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.694644 ms
-System memory in use before: 35.4 MB.
-System memory in use after: 35.5 MB.
+UnloadTime: 0.745962 ms
+System memory in use before: 44.2 MB.
+System memory in use after: 44.2 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
-Total: 0.240169 ms (FindLiveObjects: 0.022990 ms CreateObjectMapping: 0.024632 ms MarkObjects: 0.186388 ms  DeleteObjects: 0.005337 ms)
+Total: 0.915107 ms (FindLiveObjects: 0.054602 ms CreateObjectMapping: 0.059529 ms MarkObjects: 0.787017 ms  DeleteObjects: 0.012726 ms)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
-Leap is NOT connected!
+Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:57)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 57)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.679454 ms
-System memory in use before: 52.0 MB.
-System memory in use after: 51.2 MB.
+UnloadTime: 0.794407 ms
+System memory in use before: 66.0 MB.
+System memory in use after: 66.0 MB.
 
 Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.479107 ms (FindLiveObjects: 0.019295 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.179819 ms  DeleteObjects: 0.257823 ms)
+Total: 0.438463 ms (FindLiveObjects: 0.034896 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.224979 ms  DeleteObjects: 0.151902 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.483623 ms
-System memory in use before: 48.2 MB.
-System memory in use after: 48.2 MB.
+UnloadTime: 0.588312 ms
+System memory in use before: 63.0 MB.
+System memory in use after: 63.0 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.185977 ms (FindLiveObjects: 0.013548 ms CreateObjectMapping: 0.013958 ms MarkObjects: 0.152312 ms  DeleteObjects: 0.005747 ms)
+Total: 0.411367 ms (FindLiveObjects: 0.065276 ms CreateObjectMapping: 0.065687 ms MarkObjects: 0.256591 ms  DeleteObjects: 0.019295 ms)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.826429 ms
-System memory in use before: 52.7 MB.
-System memory in use after: 52.7 MB.
+UnloadTime: 0.727077 ms
+System memory in use before: 67.3 MB.
+System memory in use after: 67.2 MB.
 
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 293.
-Total: 0.227442 ms (FindLiveObjects: 0.016832 ms CreateObjectMapping: 0.016832 ms MarkObjects: 0.184745 ms  DeleteObjects: 0.008210 ms)
+Total: 0.267676 ms (FindLiveObjects: 0.022169 ms CreateObjectMapping: 0.019706 ms MarkObjects: 0.214715 ms  DeleteObjects: 0.009853 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.618282 ms
+System memory in use before: 68.4 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 613.
+Total: 0.376470 ms (FindLiveObjects: 0.032022 ms CreateObjectMapping: 0.020937 ms MarkObjects: 0.297646 ms  DeleteObjects: 0.025043 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.922497 ms
+System memory in use before: 75.7 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 593.
+Total: 0.641683 ms (FindLiveObjects: 0.041054 ms CreateObjectMapping: 0.036128 ms MarkObjects: 0.280813 ms  DeleteObjects: 0.282866 ms)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.734056 ms
+System memory in use before: 80.2 MB.
+System memory in use after: 80.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.336237 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.031201 ms MarkObjects: 0.247969 ms  DeleteObjects: 0.019706 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.722150 ms
+System memory in use before: 80.2 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.359638 ms (FindLiveObjects: 0.037359 ms CreateObjectMapping: 0.035306 ms MarkObjects: 0.276297 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.857220 ms
+System memory in use before: 80.2 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.401103 ms (FindLiveObjects: 0.052139 ms CreateObjectMapping: 0.037770 ms MarkObjects: 0.300109 ms  DeleteObjects: 0.009032 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.597755 ms
+System memory in use before: 80.2 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.316120 ms (FindLiveObjects: 0.035717 ms CreateObjectMapping: 0.032022 ms MarkObjects: 0.239759 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.534120 ms
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.393303 ms (FindLiveObjects: 0.041875 ms CreateObjectMapping: 0.038180 ms MarkObjects: 0.304214 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.775932 ms
+System memory in use before: 80.1 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 668.
+Total: 0.356354 ms (FindLiveObjects: 0.039412 ms CreateObjectMapping: 0.035717 ms MarkObjects: 0.269318 ms  DeleteObjects: 0.011084 ms)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.909770 ms
+System memory in use before: 103.1 MB.
+System memory in use after: 103.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.547668 ms (FindLiveObjects: 0.063634 ms CreateObjectMapping: 0.055423 ms MarkObjects: 0.406030 ms  DeleteObjects: 0.020937 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.347002 ms
+System memory in use before: 103.1 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.350606 ms (FindLiveObjects: 0.034896 ms CreateObjectMapping: 0.032433 ms MarkObjects: 0.270549 ms  DeleteObjects: 0.011495 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.713939 ms
+System memory in use before: 103.1 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.521804 ms (FindLiveObjects: 0.060760 ms CreateObjectMapping: 0.042286 ms MarkObjects: 0.403977 ms  DeleteObjects: 0.012726 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.576817 ms
+System memory in use before: 103.1 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
+Total: 0.507435 ms (FindLiveObjects: 0.085393 ms CreateObjectMapping: 0.041054 ms MarkObjects: 0.364154 ms  DeleteObjects: 0.014369 ms)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.292399 ms
+System memory in use before: 102.3 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
+Total: 0.650715 ms (FindLiveObjects: 0.085804 ms CreateObjectMapping: 0.051318 ms MarkObjects: 0.496350 ms  DeleteObjects: 0.016011 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.972994 ms
+System memory in use before: 102.3 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
+Total: 0.435589 ms (FindLiveObjects: 0.057887 ms CreateObjectMapping: 0.045981 ms MarkObjects: 0.318994 ms  DeleteObjects: 0.011495 ms)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Leap connected!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+ 
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.772237 ms
+System memory in use before: 123.1 MB.
+System memory in use after: 123.1 MB.
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 294.
+Total: 0.412599 ms (FindLiveObjects: 0.036949 ms CreateObjectMapping: 0.032022 ms MarkObjects: 0.220052 ms  DeleteObjects: 0.122342 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.536994 ms
+System memory in use before: 120.0 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 294.
+Total: 0.391250 ms (FindLiveObjects: 0.027096 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.335005 ms  DeleteObjects: 0.009032 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.459811 ms
+System memory in use before: 124.1 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.297646 ms (FindLiveObjects: 0.022169 ms CreateObjectMapping: 0.019706 ms MarkObjects: 0.245096 ms  DeleteObjects: 0.009853 ms)
 
