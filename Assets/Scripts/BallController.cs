@@ -14,13 +14,13 @@ public class BallController : MonoBehaviour {
     private Rigidbody rb_ball_mirror;
     private Controller LEAPcontroller;
     private Hand hand;
+    private Finger indexFinger;
     private Behaviour halo;
     private Renderer ballMirrorRenderer;
     private Text countdownText;
     private RawImage lightIcon;
 
     private float pitch;
-    private float yaw;
     private float countdown;
     private bool isGlowing;
 
@@ -78,16 +78,12 @@ public class BallController : MonoBehaviour {
             //Debug.Log("No hands detected!");
             pitch = 0.0f;
             //Debug.Log("pitch: " + pitch);
-            yaw = 0.0f;
-            //Debug.Log("yaw: " + yaw);
         }
         else if (LEAPcontroller.Frame().Hands.Count > 0)
         {
             //Debug.Log("Hand detected!");
             pitch = hand.Direction.Pitch;
             //Debug.Log("pitch: " + pitch);
-            yaw = hand.Direction.Yaw;
-            //Debug.Log("yaw: " + yaw);
         }
 
         //Simulate glowing ball in scene
@@ -148,41 +144,56 @@ public class BallController : MonoBehaviour {
         Frame currFrame;
         HandList hands;
 
-        currFrame = LEAPcontroller.Frame();   //get current frame
+        //Get current frame
+        currFrame = LEAPcontroller.Frame();   
+
+        //Get Hand object from current frame
         hands = currFrame.Hands;
         hand = hands[0];
+
+        //Get index finger of hand
+        indexFinger = hand.Fingers.FingerType(Finger.FingerType.TYPE_INDEX)[0];
     }
 
     void moveUpDownUsingLeap()
     {
         //Move ball forward and ball_mirror backward when pitch of hand is > 1.0f
-        if (pitch > 1.0f)
+        //and when the palm is facing away from the player
+        if (pitch > 1.0f && hand.PalmNormal.z <= -0.7f)
         {
-            rb_ball.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
-            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
+            rb_ball.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed * 2.0f);
+            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed * 2.0f);
         }
         //Move ball backward and ball_mirror forward when pitch of hand is < -1.0f
-        else if (pitch < -1.0f)
+        //and when the palm is facing the player
+        else if (pitch < -1.0f && hand.PalmNormal.z >= 0.7f)
         {
-            rb_ball.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed);
-            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed);
+            rb_ball.AddForce(new Vector3(0.0f, 0.0f, -0.5f) * speed * 2.0f);
+            rb_ball_mirror.AddForce(new Vector3(0.0f, 0.0f, 0.5f) * speed * 2.0f);
         }
     }
 
     void moveLeftRightUsingLeap()
     {
-        //Move both ball and ball_mirror right when yaw > 1.0f
-        if(yaw > 1.0f)
+        //First check that index finger is extended
+        if (onlyIndexFingerExtended(hand.Fingers))
         {
-            rb_ball.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed);
-            rb_ball_mirror.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed);
-        }
-        //Move both ball and ball_mirror left when yaw < -1.0f
-        //Easier
-        else if (yaw < -1.0f)
-        {
-            rb_ball.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed);
-            rb_ball_mirror.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed);
+            //Move ball right if index finger is pointing right and the palm is facing the player
+            if (indexFinger.Direction.x >= 0.7 && hand.PalmNormal.z >= 0.7f)
+            {
+                pitch = 0.0f;
+
+                rb_ball.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed * 2.0f);
+                rb_ball_mirror.AddForce(new Vector3(0.5f, 0.0f, 0.0f) * speed * 2.0f);
+            }
+            //Move ball left if index is pointing left and the palm is facing the player
+            else if (indexFinger.Direction.x <= -0.7 && hand.PalmNormal.z >= 0.7f)
+            {
+                pitch = 0.0f;
+
+                rb_ball.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed * 2.0f);
+                rb_ball_mirror.AddForce(new Vector3(-0.5f, 0.0f, 0.0f) * speed * 2.0f);
+            }
         }
     }
 
@@ -231,5 +242,18 @@ public class BallController : MonoBehaviour {
     void StartTimer(float time)
     {
         countdown = time;
+    }
+
+    //Function to check if only the index finger is extended and the other fingers are not
+    bool onlyIndexFingerExtended(FingerList fingerList)
+    {
+        if (indexFinger.IsExtended &&
+            !fingerList.FingerType(Finger.FingerType.TYPE_THUMB)[0].IsExtended &&
+            !fingerList.FingerType(Finger.FingerType.TYPE_MIDDLE)[0].IsExtended &&
+            !fingerList.FingerType(Finger.FingerType.TYPE_RING)[0].IsExtended &&
+            !fingerList.FingerType(Finger.FingerType.TYPE_PINKY)[0].IsExtended)
+            return true;
+
+        return false;
     }
 }
