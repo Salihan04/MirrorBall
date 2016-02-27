@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using Leap;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -27,10 +26,12 @@ public class BallController : MonoBehaviour {
     public Material[] materials;
     public float speed;
 
+    //Use this for initialization
     void Start()
     {
         isGlowing = false;
 
+        //Initialise variables
         ball = GameObject.Find("/Ball");
         ball_mirror = GameObject.Find("/Ball_Mirror");
         rb_ball = ball.GetComponent<Rigidbody>();
@@ -59,6 +60,8 @@ public class BallController : MonoBehaviour {
         halo = (Behaviour)ball_mirror.GetComponent("Halo");
     }
 
+    //FixedUpdate is called every fixed framerate frame
+    //Use this when Physics is involved
     void FixedUpdate()
     {
         //Move ball and ball_mirror using keyboard input
@@ -71,25 +74,25 @@ public class BallController : MonoBehaviour {
         moveUsingLeap();
     }
 
+    //Update is called once per frame
     void Update()
     {
         if (LEAPcontroller.Frame().Hands.Count == 0)
         {
-            //Debug.Log("No hands detected!");
+            //If there are no hands, pitch = 0
             pitch = 0.0f;
-            //Debug.Log("pitch: " + pitch);
         }
         else if (LEAPcontroller.Frame().Hands.Count > 0)
         {
-            //Debug.Log("Hand detected!");
+            //Otherwise get the hand's pitch
             pitch = hand.Direction.Pitch;
-            //Debug.Log("pitch: " + pitch);
         }
 
         //Simulate glowing ball in scene
         glow();
         if (isGlowing)
         {
+            //Reduce the countdown value and update the countdown text
             countdown -= Time.deltaTime;
             countdownText.text = ((int)countdown).ToString();
             if (countdown <= 0)
@@ -208,9 +211,10 @@ public class BallController : MonoBehaviour {
         }
     }
 
+    //Function to activate the ball's glow
     void glow()
     {
-        //Only Level3 has this feature
+        //Only Level3 and Level4 have this feature
         if (SceneManager.GetActiveScene().name.Equals("Level3") || SceneManager.GetActiveScene().name.Equals("Level4"))
         {
             if ((Input.GetKeyUp(KeyCode.Space) || (hand.GrabStrength == 1 && hand.SphereRadius < 35.0f)) && !isGlowing)
