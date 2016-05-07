@@ -1,0 +1,1006 @@
+Initialize engine version: 5.3.4f1 (fdbb5133b820)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 850M  (ID=0x1391)
+    Vendor:   NVIDIA
+    VRAM:     1995 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.129 seconds
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Salihan\Desktop\MirrorBall_buildFinal_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+UnloadTime: 3.175576 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 780 -> priority: 1 
+  Thread -> id: 3584 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.193184 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 601.
+Total: 0.318584 ms (FindLiveObjects: 0.047212 ms CreateObjectMapping: 0.016832 ms MarkObjects: 0.236064 ms  DeleteObjects: 0.017653 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.678222 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 588.
+Total: 0.416704 ms (FindLiveObjects: 0.058708 ms CreateObjectMapping: 0.026274 ms MarkObjects: 0.224979 ms  DeleteObjects: 0.106331 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.160204 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 1.600310 ms (FindLiveObjects: 0.186388 ms CreateObjectMapping: 0.231548 ms MarkObjects: 1.148298 ms  DeleteObjects: 0.029559 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.451692 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 665.
+Total: 0.515646 ms (FindLiveObjects: 0.094425 ms CreateObjectMapping: 0.061171 ms MarkObjects: 0.346911 ms  DeleteObjects: 0.011495 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.572301 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.313246 ms (FindLiveObjects: 0.048855 ms CreateObjectMapping: 0.029559 ms MarkObjects: 0.223747 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.851883 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 3.145196 ms (FindLiveObjects: 0.404388 ms CreateObjectMapping: 0.603913 ms MarkObjects: 2.081470 ms  DeleteObjects: 0.047212 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.714852 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.210290 ms (FindLiveObjects: 0.149028 ms CreateObjectMapping: 0.100994 ms MarkObjects: 0.924550 ms  DeleteObjects: 0.030380 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.772648 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.298877 ms (FindLiveObjects: 0.039412 ms CreateObjectMapping: 0.025864 ms MarkObjects: 0.224568 ms  DeleteObjects: 0.007389 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.936045 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.822735 ms (FindLiveObjects: 0.064045 ms CreateObjectMapping: 0.018474 ms MarkObjects: 0.516056 ms  DeleteObjects: 0.222105 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.402335 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.273423 ms (FindLiveObjects: 0.020937 ms CreateObjectMapping: 0.013958 ms MarkObjects: 0.230727 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.476644 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.291487 ms (FindLiveObjects: 0.023811 ms CreateObjectMapping: 0.016832 ms MarkObjects: 0.240990 ms  DeleteObjects: 0.008621 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.339202 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.355943 ms (FindLiveObjects: 0.047623 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.272192 ms  DeleteObjects: 0.018885 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.658927 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 1.332223 ms (FindLiveObjects: 0.215947 ms CreateObjectMapping: 0.083751 ms MarkObjects: 0.810008 ms  DeleteObjects: 0.220463 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.732597 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.884727 ms (FindLiveObjects: 0.169145 ms CreateObjectMapping: 0.055834 ms MarkObjects: 0.640452 ms  DeleteObjects: 0.016832 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.684791 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.569838 ms (FindLiveObjects: 0.072666 ms CreateObjectMapping: 0.071435 ms MarkObjects: 0.412599 ms  DeleteObjects: 0.012316 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.621156 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.610893 ms (FindLiveObjects: 0.105510 ms CreateObjectMapping: 0.041465 ms MarkObjects: 0.449137 ms  DeleteObjects: 0.013548 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.408584 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 2.381990 ms (FindLiveObjects: 0.184745 ms CreateObjectMapping: 0.160934 ms MarkObjects: 2.001824 ms  DeleteObjects: 0.029969 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.332405 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.603503 ms (FindLiveObjects: 0.151491 ms CreateObjectMapping: 0.042286 ms MarkObjects: 0.397408 ms  DeleteObjects: 0.009032 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.576817 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.371133 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.033664 ms MarkObjects: 0.274245 ms  DeleteObjects: 0.012316 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.975458 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.664674 ms (FindLiveObjects: 0.073077 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.356354 ms  DeleteObjects: 0.211431 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.869537 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.253717 ms (FindLiveObjects: 0.025864 ms CreateObjectMapping: 0.014369 ms MarkObjects: 0.206915 ms  DeleteObjects: 0.006158 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.630599 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.244275 ms (FindLiveObjects: 0.018064 ms CreateObjectMapping: 0.016011 ms MarkObjects: 0.202399 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.769774 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.330900 ms (FindLiveObjects: 0.034075 ms CreateObjectMapping: 0.016011 ms MarkObjects: 0.261107 ms  DeleteObjects: 0.019295 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.980795 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.851473 ms (FindLiveObjects: 0.077593 ms CreateObjectMapping: 0.037359 ms MarkObjects: 0.515235 ms  DeleteObjects: 0.219642 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.738253 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.332953 ms (FindLiveObjects: 0.041465 ms CreateObjectMapping: 0.027096 ms MarkObjects: 0.256180 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.062494 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.406851 ms (FindLiveObjects: 0.046802 ms CreateObjectMapping: 0.038180 ms MarkObjects: 0.313657 ms  DeleteObjects: 0.007389 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.624441 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.327616 ms (FindLiveObjects: 0.043928 ms CreateObjectMapping: 0.026274 ms MarkObjects: 0.244685 ms  DeleteObjects: 0.011495 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.536584 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 1.378204 ms (FindLiveObjects: 0.257823 ms CreateObjectMapping: 0.114542 ms MarkObjects: 0.982848 ms  DeleteObjects: 0.018885 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.553507 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.084253 ms (FindLiveObjects: 0.175713 ms CreateObjectMapping: 0.094425 ms MarkObjects: 0.791533 ms  DeleteObjects: 0.016011 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.696286 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.554237 ms (FindLiveObjects: 0.081698 ms CreateObjectMapping: 0.110436 ms MarkObjects: 0.313657 ms  DeleteObjects: 0.045570 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.251026 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 1.230407 ms (FindLiveObjects: 0.073898 ms CreateObjectMapping: 0.067740 ms MarkObjects: 0.594881 ms  DeleteObjects: 0.492655 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.437231 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.547668 ms (FindLiveObjects: 0.048033 ms CreateObjectMapping: 0.048444 ms MarkObjects: 0.439284 ms  DeleteObjects: 0.009853 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.363333 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.239759 ms (FindLiveObjects: 0.021348 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.188030 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.440516 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 1.131876 ms (FindLiveObjects: 0.146154 ms CreateObjectMapping: 0.059939 ms MarkObjects: 0.870358 ms  DeleteObjects: 0.052549 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.609250 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.461043 ms (FindLiveObjects: 0.033254 ms CreateObjectMapping: 0.023811 ms MarkObjects: 0.278761 ms  DeleteObjects: 0.123985 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.784736 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 1.000501 ms (FindLiveObjects: 0.138354 ms CreateObjectMapping: 0.049265 ms MarkObjects: 0.785785 ms  DeleteObjects: 0.023811 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.523036 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.550953 ms (FindLiveObjects: 0.122753 ms CreateObjectMapping: 0.047212 ms MarkObjects: 0.370723 ms  DeleteObjects: 0.009032 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.739394 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.336648 ms (FindLiveObjects: 0.040233 ms CreateObjectMapping: 0.027096 ms MarkObjects: 0.257412 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.935635 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.427378 ms (FindLiveObjects: 0.083340 ms CreateObjectMapping: 0.039412 ms MarkObjects: 0.293540 ms  DeleteObjects: 0.009442 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.023674 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.819040 ms (FindLiveObjects: 0.065687 ms CreateObjectMapping: 0.125216 ms MarkObjects: 0.615819 ms  DeleteObjects: 0.011084 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.873232 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.396177 ms (FindLiveObjects: 0.050497 ms CreateObjectMapping: 0.025043 ms MarkObjects: 0.313246 ms  DeleteObjects: 0.006979 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.804260 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.557932 ms (FindLiveObjects: 0.042696 ms CreateObjectMapping: 0.019295 ms MarkObjects: 0.218410 ms  DeleteObjects: 0.276708 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.415883 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.249201 ms (FindLiveObjects: 0.021348 ms CreateObjectMapping: 0.013958 ms MarkObjects: 0.207736 ms  DeleteObjects: 0.005337 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.635936 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.274245 ms (FindLiveObjects: 0.018885 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.230316 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.369491 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.414651 ms (FindLiveObjects: 0.047623 ms CreateObjectMapping: 0.027506 ms MarkObjects: 0.320226 ms  DeleteObjects: 0.018064 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.336739 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.437231 ms (FindLiveObjects: 0.039823 ms CreateObjectMapping: 0.023401 ms MarkObjects: 0.263981 ms  DeleteObjects: 0.109615 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.470166 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 1.018565 ms (FindLiveObjects: 0.151902 ms CreateObjectMapping: 0.053371 ms MarkObjects: 0.787838 ms  DeleteObjects: 0.023401 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.565413 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.573533 ms (FindLiveObjects: 0.067740 ms CreateObjectMapping: 0.039412 ms MarkObjects: 0.455296 ms  DeleteObjects: 0.010263 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.564501 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.347732 ms (FindLiveObjects: 0.046802 ms CreateObjectMapping: 0.025864 ms MarkObjects: 0.264391 ms  DeleteObjects: 0.009853 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.445853 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.315710 ms (FindLiveObjects: 0.040644 ms CreateObjectMapping: 0.022580 ms MarkObjects: 0.245506 ms  DeleteObjects: 0.005747 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.400784 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.037040 ms (FindLiveObjects: 0.109615 ms CreateObjectMapping: 0.093604 ms MarkObjects: 0.812471 ms  DeleteObjects: 0.019295 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.665495 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.461864 ms (FindLiveObjects: 0.044749 ms CreateObjectMapping: 0.041465 ms MarkObjects: 0.366207 ms  DeleteObjects: 0.008621 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.588313 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.505793 ms (FindLiveObjects: 0.047212 ms CreateObjectMapping: 0.033254 ms MarkObjects: 0.226211 ms  DeleteObjects: 0.198704 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.579691 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.491013 ms (FindLiveObjects: 0.029559 ms CreateObjectMapping: 0.034485 ms MarkObjects: 0.413830 ms  DeleteObjects: 0.012726 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.586260 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.382629 ms (FindLiveObjects: 0.021348 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.330900 ms  DeleteObjects: 0.013137 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.780038 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.524678 ms (FindLiveObjects: 0.064866 ms CreateObjectMapping: 0.017653 ms MarkObjects: 0.409314 ms  DeleteObjects: 0.031612 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.709424 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.776343 ms (FindLiveObjects: 0.094015 ms CreateObjectMapping: 0.030790 ms MarkObjects: 0.520983 ms  DeleteObjects: 0.128911 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.313338 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 1.066189 ms (FindLiveObjects: 0.123163 ms CreateObjectMapping: 0.139175 ms MarkObjects: 0.781269 ms  DeleteObjects: 0.019295 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.826429 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.541510 ms (FindLiveObjects: 0.054192 ms CreateObjectMapping: 0.040644 ms MarkObjects: 0.437231 ms  DeleteObjects: 0.008210 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.550132 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.376471 ms (FindLiveObjects: 0.056655 ms CreateObjectMapping: 0.025453 ms MarkObjects: 0.283277 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.517288 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.323921 ms (FindLiveObjects: 0.032022 ms CreateObjectMapping: 0.025864 ms MarkObjects: 0.259054 ms  DeleteObjects: 0.006568 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.884408 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.016512 ms (FindLiveObjects: 0.083340 ms CreateObjectMapping: 0.092372 ms MarkObjects: 0.820271 ms  DeleteObjects: 0.019295 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.858452 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.461864 ms (FindLiveObjects: 0.039001 ms CreateObjectMapping: 0.045160 ms MarkObjects: 0.369081 ms  DeleteObjects: 0.008210 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.645379 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.561216 ms (FindLiveObjects: 0.036128 ms CreateObjectMapping: 0.019706 ms MarkObjects: 0.240580 ms  DeleteObjects: 0.264391 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.373186 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.336237 ms (FindLiveObjects: 0.030790 ms CreateObjectMapping: 0.021758 ms MarkObjects: 0.273834 ms  DeleteObjects: 0.009032 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378934 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.307499 ms (FindLiveObjects: 0.021758 ms CreateObjectMapping: 0.016832 ms MarkObjects: 0.260696 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.357175 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.592007 ms (FindLiveObjects: 0.107973 ms CreateObjectMapping: 0.020116 ms MarkObjects: 0.439695 ms  DeleteObjects: 0.022990 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.684791 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.617051 ms (FindLiveObjects: 0.048444 ms CreateObjectMapping: 0.042696 ms MarkObjects: 0.374418 ms  DeleteObjects: 0.150670 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.640133 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.405619 ms (FindLiveObjects: 0.050907 ms CreateObjectMapping: 0.029148 ms MarkObjects: 0.317352 ms  DeleteObjects: 0.007800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.049767 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.749657 ms (FindLiveObjects: 0.117826 ms CreateObjectMapping: 0.050086 ms MarkObjects: 0.562859 ms  DeleteObjects: 0.017242 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.568606 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.593239 ms (FindLiveObjects: 0.049265 ms CreateObjectMapping: 0.056655 ms MarkObjects: 0.471307 ms  DeleteObjects: 0.015600 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.814113 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.355943 ms (FindLiveObjects: 0.052549 ms CreateObjectMapping: 0.034896 ms MarkObjects: 0.252075 ms  DeleteObjects: 0.006158 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.553006 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.698339 ms (FindLiveObjects: 0.103868 ms CreateObjectMapping: 0.128911 ms MarkObjects: 0.446674 ms  DeleteObjects: 0.017653 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.515646 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.404388 ms (FindLiveObjects: 0.062403 ms CreateObjectMapping: 0.031201 ms MarkObjects: 0.303804 ms  DeleteObjects: 0.006568 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.593650 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.646610 ms (FindLiveObjects: 0.045981 ms CreateObjectMapping: 0.034075 ms MarkObjects: 0.255770 ms  DeleteObjects: 0.309962 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.433537 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.258233 ms (FindLiveObjects: 0.011495 ms CreateObjectMapping: 0.014369 ms MarkObjects: 0.226621 ms  DeleteObjects: 0.005337 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.410135 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.483213 ms (FindLiveObjects: 0.040644 ms CreateObjectMapping: 0.018064 ms MarkObjects: 0.415062 ms  DeleteObjects: 0.008621 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.137213 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.383039 ms (FindLiveObjects: 0.039001 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.308730 ms  DeleteObjects: 0.018064 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.635525 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 0.746783 ms (FindLiveObjects: 0.045160 ms CreateObjectMapping: 0.047212 ms MarkObjects: 0.442158 ms  DeleteObjects: 0.211841 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.692591 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.463096 ms (FindLiveObjects: 0.068150 ms CreateObjectMapping: 0.049265 ms MarkObjects: 0.335826 ms  DeleteObjects: 0.008621 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.589225 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.859273 ms (FindLiveObjects: 0.087035 ms CreateObjectMapping: 0.042286 ms MarkObjects: 0.708192 ms  DeleteObjects: 0.019706 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.818720 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.616640 ms (FindLiveObjects: 0.057065 ms CreateObjectMapping: 0.037770 ms MarkObjects: 0.507024 ms  DeleteObjects: 0.013958 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.438053 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.566554 ms (FindLiveObjects: 0.059529 ms CreateObjectMapping: 0.044749 ms MarkObjects: 0.447085 ms  DeleteObjects: 0.013958 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.563269 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.647842 ms (FindLiveObjects: 0.054602 ms CreateObjectMapping: 0.051318 ms MarkObjects: 0.527962 ms  DeleteObjects: 0.012726 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.090411 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.508758 ms (FindLiveObjects: 0.162165 ms CreateObjectMapping: 0.174071 ms MarkObjects: 1.145835 ms  DeleteObjects: 0.022580 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.773880 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.534531 ms (FindLiveObjects: 0.031201 ms CreateObjectMapping: 0.018064 ms MarkObjects: 0.250843 ms  DeleteObjects: 0.234011 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.418757 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.444621 ms (FindLiveObjects: 0.030380 ms CreateObjectMapping: 0.023401 ms MarkObjects: 0.377292 ms  DeleteObjects: 0.011905 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.592829 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 292.
+Total: 0.582975 ms (FindLiveObjects: 0.029969 ms CreateObjectMapping: 0.018474 ms MarkObjects: 0.523857 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.707371 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 608.
+Total: 0.625672 ms (FindLiveObjects: 0.149849 ms CreateObjectMapping: 0.018885 ms MarkObjects: 0.436821 ms  DeleteObjects: 0.018885 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.646610 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 592.
+Total: 1.187710 ms (FindLiveObjects: 0.060760 ms CreateObjectMapping: 0.026685 ms MarkObjects: 0.899507 ms  DeleteObjects: 0.199525 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.032934 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 1.156919 ms (FindLiveObjects: 0.135480 ms CreateObjectMapping: 0.041465 ms MarkObjects: 0.959857 ms  DeleteObjects: 0.017653 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.694234 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 667.
+Total: 0.559164 ms (FindLiveObjects: 0.098531 ms CreateObjectMapping: 0.037770 ms MarkObjects: 0.411778 ms  DeleteObjects: 0.008621 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.581744 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 0.386734 ms (FindLiveObjects: 0.039412 ms CreateObjectMapping: 0.025864 ms MarkObjects: 0.310783 ms  DeleteObjects: 0.010263 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.392573 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 617.
+Total: 1.682008 ms (FindLiveObjects: 0.228263 ms CreateObjectMapping: 0.158060 ms MarkObjects: 1.268177 ms  DeleteObjects: 0.024632 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.554648 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 0.454885 ms (FindLiveObjects: 0.064866 ms CreateObjectMapping: 0.028327 ms MarkObjects: 0.352248 ms  DeleteObjects: 0.008210 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.901970 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 692.
+Total: 1.252987 ms (FindLiveObjects: 0.140817 ms CreateObjectMapping: 0.056655 ms MarkObjects: 1.032934 ms  DeleteObjects: 0.019706 ms)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Leap connected!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.986953 ms
+
+Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.785375 ms (FindLiveObjects: 0.039823 ms CreateObjectMapping: 0.026274 ms MarkObjects: 0.381808 ms  DeleteObjects: 0.336648 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.603092 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 293.
+Total: 0.323921 ms (FindLiveObjects: 0.025864 ms CreateObjectMapping: 0.014779 ms MarkObjects: 0.274655 ms  DeleteObjects: 0.007800 ms)
+

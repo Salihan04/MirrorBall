@@ -2,9 +2,9 @@ Mono path[0] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_buildPlaytest_Data/Managed
 Mono path[1] = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_buildPlaytest_Data/Mono'
 Mono config path = 'E:/MY_PORTFOLIO/MirrorBall/MirrorBall_buildPlaytest_Data/Mono/etc'
 PlayerConnection initialized from E:/MY_PORTFOLIO/MirrorBall/MirrorBall_buildPlaytest_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55061
-Multi-casting "[IP] 192.168.56.1 [Port] 55061 [Flags] 2 [Guid] 3241327039 [EditorId] 3933308554 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.56.1:55061]
+PlayerConnection initialized network socket : 0.0.0.0 55300
+Multi-casting "[IP] 192.168.56.1 [Port] 55300 [Flags] 2 [Guid] 245827728 [EditorId] 3933308554 [Version] 1048832 [Id] WindowsPlayer(Salihan-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.56.1:55300]
 Initialize engine version: 5.3.2f1 (e87ab445ead0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -23,32 +23,32 @@ Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Mana
 Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
 Loading E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
-- Completed reload, in  0.147 seconds
+- Completed reload, in  0.525 seconds
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\MY_PORTFOLIO\MirrorBall\MirrorBall_buildPlaytest_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-UnloadTime: 0.832999 ms
+UnloadTime: 10.471401 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2be4 -> priority: 1 
-  Thread -> id: 204c -> priority: 1 
+  Thread -> id: 1344 -> priority: 1 
+  Thread -> id: cd0 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.922864 ms
+UnloadTime: 4.741813 ms
 System memory in use before: 22.8 MB.
 System memory in use after: 22.9 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 602.
-Total: 0.401514 ms (FindLiveObjects: 0.044749 ms CreateObjectMapping: 0.024222 ms MarkObjects: 0.306678 ms  DeleteObjects: 0.025043 ms)
+Total: 0.353891 ms (FindLiveObjects: 0.038591 ms CreateObjectMapping: 0.021348 ms MarkObjects: 0.268908 ms  DeleteObjects: 0.023811 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.571982 ms
+UnloadTime: 1.572804 ms
 System memory in use before: 29.5 MB.
 System memory in use after: 29.5 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 589.
-Total: 0.460633 ms (FindLiveObjects: 0.037359 ms CreateObjectMapping: 0.028327 ms MarkObjects: 0.243454 ms  DeleteObjects: 0.150260 ms)
+Total: 0.443800 ms (FindLiveObjects: 0.029969 ms CreateObjectMapping: 0.029148 ms MarkObjects: 0.225800 ms  DeleteObjects: 0.158470 ms)
 
 Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -69,20 +69,36 @@ BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallControl
 (Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.036721 ms
-System memory in use before: 30.9 MB.
+UnloadTime: 0.803029 ms
+System memory in use before: 31.1 MB.
+System memory in use after: 31.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
+Total: 0.737752 ms (FindLiveObjects: 0.050907 ms CreateObjectMapping: 0.071435 ms MarkObjects: 0.600219 ms  DeleteObjects: 0.014369 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.236155 ms
+System memory in use before: 31.0 MB.
+System memory in use after: 31.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
+Total: 0.669601 ms (FindLiveObjects: 0.144922 ms CreateObjectMapping: 0.110437 ms MarkObjects: 0.399461 ms  DeleteObjects: 0.011084 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.601040 ms
+System memory in use before: 31.0 MB.
+System memory in use after: 31.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
+Total: 0.381808 ms (FindLiveObjects: 0.050907 ms CreateObjectMapping: 0.048855 ms MarkObjects: 0.272602 ms  DeleteObjects: 0.008621 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.574765 ms
+System memory in use before: 31.0 MB.
 System memory in use after: 31.0 MB.
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
-Total: 0.527962 ms (FindLiveObjects: 0.040233 ms CreateObjectMapping: 0.031612 ms MarkObjects: 0.445853 ms  DeleteObjects: 0.009442 ms)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.475093 ms
-System memory in use before: 30.9 MB.
-System memory in use after: 31.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 666.
-Total: 0.449548 ms (FindLiveObjects: 0.047623 ms CreateObjectMapping: 0.034896 ms MarkObjects: 0.357996 ms  DeleteObjects: 0.008210 ms)
+Total: 0.318994 ms (FindLiveObjects: 0.037359 ms CreateObjectMapping: 0.031612 ms MarkObjects: 0.240990 ms  DeleteObjects: 0.008210 ms)
 
 Leap connected!
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
@@ -102,95 +118,23 @@ BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallControl
  
 (Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.162668 ms
-System memory in use before: 43.1 MB.
-System memory in use after: 43.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 618.
-Total: 0.365386 ms (FindLiveObjects: 0.034896 ms CreateObjectMapping: 0.032022 ms MarkObjects: 0.267265 ms  DeleteObjects: 0.030380 ms)
-
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.217681 ms
-System memory in use before: 43.1 MB.
-System memory in use after: 43.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 618.
-Total: 0.365386 ms (FindLiveObjects: 0.040233 ms CreateObjectMapping: 0.043517 ms MarkObjects: 0.271371 ms  DeleteObjects: 0.009032 ms)
-
-Leap connected!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00045] in E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:85 
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 85)
 
-Leap connected!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00045] in E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:85 
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 85)
 
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.746784 ms
-System memory in use before: 42.7 MB.
-System memory in use after: 42.7 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
-Total: 0.365797 ms (FindLiveObjects: 0.040644 ms CreateObjectMapping: 0.033254 ms MarkObjects: 0.281224 ms  DeleteObjects: 0.009032 ms)
-
-Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.798923 ms
-System memory in use before: 42.6 MB.
-System memory in use after: 42.7 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 693.
-Total: 0.364154 ms (FindLiveObjects: 0.043928 ms CreateObjectMapping: 0.041054 ms MarkObjects: 0.269318 ms  DeleteObjects: 0.008621 ms)
-
-Leap connected!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00045] in E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:85 
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 85)
 
-Leap connected!
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-BallController:Start() (at E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:55)
+NullReferenceException: Object reference not set to an instance of an object
+  at BallController.Update () [0x00045] in E:\MY_PORTFOLIO\MirrorBall\Assets\Scripts\BallController.cs:85 
  
-(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 55)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.817808 ms
-System memory in use before: 60.0 MB.
-System memory in use after: 60.0 MB.
-
-Unloading 210 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.494708 ms (FindLiveObjects: 0.031612 ms CreateObjectMapping: 0.022990 ms MarkObjects: 0.249612 ms  DeleteObjects: 0.188851 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.427379 ms
-System memory in use before: 58.9 MB.
-System memory in use after: 59.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 294.
-Total: 0.246327 ms (FindLiveObjects: 0.024222 ms CreateObjectMapping: 0.013548 ms MarkObjects: 0.189261 ms  DeleteObjects: 0.018474 ms)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.497993 ms
-System memory in use before: 63.3 MB.
-System memory in use after: 63.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 293.
-Total: 0.344038 ms (FindLiveObjects: 0.025453 ms CreateObjectMapping: 0.028327 ms MarkObjects: 0.275887 ms  DeleteObjects: 0.013137 ms)
+(Filename: E:/MY_PORTFOLIO/MirrorBall/Assets/Scripts/BallController.cs Line: 85)
 
